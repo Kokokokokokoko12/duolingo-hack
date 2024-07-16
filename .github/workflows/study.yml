@@ -1,11 +1,11 @@
-name: Do a Duolingo lesson
+name: Probíhá lekce Duolinga XP farma - zadané číslo/input x 10, po dokončení se XP přidávají postupně
 
 on:
   workflow_dispatch:
     inputs:
       lessons:
         default: 1
-        description: 'Number of lessons to be completed'
+        description: 'Tady napiš počet lekcí!'
         required: false
         type: number
 
